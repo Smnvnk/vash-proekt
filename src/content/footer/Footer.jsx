@@ -5,28 +5,28 @@ import logo from '../../assets/logo.png'
 import './footer.css'
 
 function Footer() {
-    // const companyName = useRef()
-    // const date = new Date()
-    // companyName.current.focus()
-    // .innerHTML = "© ООО \"ВАШ ПРОЕКТ\", " + date.getFullYear() + "."
+
+    const date = new Date()
+
     return (
       <>
         <footer>
           <div className="footer__container">
+            
+            <img className="footer__logo" src={logo} alt="img"/>
+
             <div className="footer__container-info">
 
-              <img src={logo} alt="img"/>
-              <p>Телефон - +7(492) 442-23-22</p>
+              {/* <p>Телефон - +7(492) 442-23-22</p>
               <p>Почта - gmail@gmail.com</p>
-              <p>Адрес - Владимирская область, Александров, Институтская улица, 6к5, офис 314, 3 этаж</p>
+              <p>Адрес - Владимирская область, Александров, Институтская улица, 6к5, офис 314, 3 этаж</p> */}
+
+              <div className="footer__container-author">
+                <h1>Сайт создан <a target="_blank" href="https://github.com/SemenovNikita2009">Linuxoid86</a></h1>
+                <p>© ООО "ВАШ ПРОЕКТ", {date.getFullYear()}.</p>
+              </div>
 
             </div>
-
-            <div className="footer__container-author">
-              <p>ООО "ВАШ ПРОЕКТ"</p>
-              <h1>Сайт создан <a target="_blank" href="https://github.com/SemenovNikita2009">Linuxoid86</a></h1>
-            </div>
-            
           </div>
         </footer>
       </>

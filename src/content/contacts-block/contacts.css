@@ -1,0 +1,32 @@
+.contacts__container{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 50px;
+}
+.contacts__container h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+.map__container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.contacts__container-map{
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.map__container-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    gap: 20px;
+}
+.address{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: underline;
+}

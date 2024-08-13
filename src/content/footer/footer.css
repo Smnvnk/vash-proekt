@@ -1,0 +1,31 @@
+.footer__container{
+    width: 100%;
+    background: #f29400;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.footer__logo{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    padding-right: 20px;
+}
+.footer__container-author{
+    width: 100%;
+}
+.footer__container-info{
+    padding: 40px;
+}
+.footer__container-author p{
+    font-size: 30px;
+}
+.footer__container-author h1{
+    font-size: 20px;
+}
+.footer__container-author{
+    margin-top: 60px;
+}
+.footer__container-info{
+    font-size: 20px;
+}
