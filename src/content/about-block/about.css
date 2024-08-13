@@ -4,7 +4,8 @@
     height: fit-content;
     display: flex;
     justify-content: center;
-    padding-bottom: 25px;
+    padding-top: 70px;
+    padding-bottom: 100px;
 }
 .about__container-logo{
     width: 200px;

@@ -11,10 +11,13 @@ function Card() {
         <header>
             <div className="card__container">
 
-              <h1>Скачать карточку предприятия</h1>
-              <a className="card__container-btn" href={Doc} download="Карточка предприятия.pdf">Скачать</a>
+              <div className="card__container-content">
+                <h1>Скачать карточку предприятия</h1>
 
-              <embed className="card__container-document" src={Doc} type="application/pdf"/>
+                <a className="card__container-btn" href={Doc} download="Карточка предприятия.pdf">Скачать</a>
+
+                <embed className="card__container-document" src={Doc} type="application/pdf"/>
+              </div>
               
             </div>
         </header>
