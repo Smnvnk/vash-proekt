@@ -14,10 +14,10 @@
 }
 .card__container-document{
     height: 650px;
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 60px;
-    border: 12px solid #323639;
     border-radius: 6px;
 }
 .card__container-content{
@@ -39,4 +39,18 @@
     background: black;
     color: white;
     transition: all 0.3s ease-in-out;
+}
+
+
+
+@media (max-width: 900px){
+    .card__container-content h1{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 620px){
+    .card__container-content h1{
+        text-align: center;
+    }
 }

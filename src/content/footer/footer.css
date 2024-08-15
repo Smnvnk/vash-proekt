@@ -1,5 +1,6 @@
 .footer__container{
     width: 100%;
+    height: 100%;
     background: #f29400;
     display: flex;
     justify-content: center;
@@ -13,19 +14,15 @@
 }
 .footer__container-author{
     width: 100%;
+    margin-top: 60px;
 }
 .footer__container-info{
     padding: 40px;
+    font-size: 20px;
 }
 .footer__container-author p{
     font-size: 30px;
 }
 .footer__container-author h1{
-    font-size: 20px;
-}
-.footer__container-author{
-    margin-top: 60px;
-}
-.footer__container-info{
     font-size: 20px;
 }
