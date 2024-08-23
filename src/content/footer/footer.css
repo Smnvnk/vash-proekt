@@ -26,3 +26,53 @@
 .footer__container-author h1{
     font-size: 20px;
 }
+
+
+
+@media (max-width: 510px){
+   .footer__logo{
+        padding: 0;
+   }
+   .footer__logo{
+        padding-top: 30px;
+    }
+   .footer__container-info{
+        padding: 0;
+   }
+   .footer__container-info{
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 400px){
+    .footer__logo{
+         padding-top: 35px;
+    }
+    .footer__container-info{
+         padding-left: 10px;
+    }
+ }
+
+@media (max-width: 350px){
+    .footer__logo{
+         padding-top: 30px;
+    }
+    .footer__container-info{
+         padding-left: 10px;
+    }
+    .footer__container-author p{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 350px){
+    .footer__logo{
+         padding-top: 40px;
+    }
+}
+
+@media (max-width: 260px){
+    .footer__container-author p{
+        font-size: 12px;
+    }
+}
