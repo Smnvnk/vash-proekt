@@ -1,6 +1,7 @@
 .contacts__container{
     width: 100%;
     height: fit-content;
+    background: #f29400;
     padding-bottom: 50px;
 }
 .contacts__container h1{

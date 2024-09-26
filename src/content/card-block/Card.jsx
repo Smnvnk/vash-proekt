@@ -9,6 +9,8 @@ function Card() {
     return (
       <>
         <header>
+          <div className="about__container-top-dragient"></div>
+
             <div className="card__container">
 
               <div className="card__container-content">
@@ -20,6 +22,8 @@ function Card() {
               </div>
               
             </div>
+
+            <div className="about__container-bottom-dragient"></div>
         </header>
       </>
     );

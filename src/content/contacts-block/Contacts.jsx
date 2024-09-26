@@ -10,8 +10,6 @@ function Contacts() {
       <>
         <header>  
 
-          <div className="about__container-top-dragient"></div>
-
           <div className="contacts__container">
             
             <h1>Контакты</h1>
@@ -28,8 +26,6 @@ function Contacts() {
             <p id="adress" className="address">▪ Владимирская область, Александров, Институтская улица, 6к5, офис 314, 3 этаж</p>
 
           </div>
-
-          <div className="about__container-bottom-dragient"></div>
 
         </header>
       </>

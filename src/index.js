@@ -13,8 +13,8 @@ export default function App(){
     return (
       <>
         <About/>
-        <Card/>
         <Contacts/>
+        <Card/>
         <Footer/>
       </>
     );
